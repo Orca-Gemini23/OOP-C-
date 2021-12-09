@@ -13,7 +13,9 @@ class X{
 };
 
 int main(){
+    
     int X::*ptiptr = &X::a; // declare pointer to date member
+
     void (X::*ptfptr) (int) = &X::f;
 
     X x;

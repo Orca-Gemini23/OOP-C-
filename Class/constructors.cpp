@@ -15,7 +15,7 @@ X :: X(void){ // constructor.
     m = 0, n = 0;
 }
 
-X::X(int x. int y){ // Pareametrised constructor
+X::X(int x. int y){ // Parametrised constructor
 // now X int1 cant work.
     x = m, y = n;
 }
