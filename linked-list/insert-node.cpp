@@ -13,7 +13,7 @@ void push(Node **head_ref, int new_data){
     new_node->data = new_data; // put in the data
     new_node->next = (*head_ref); // make next of new node as head
 
-    (*head_ref) = new_mode; // move the head to point to new node
+    (*head_ref) = new_node; // move the head to point to new node
 }
 
 void insertAfter(Node *prev_node, int new_data){

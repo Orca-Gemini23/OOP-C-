@@ -20,9 +20,7 @@ void print(Node *n){
         n = n->next;
     }
 }
-
 int main(){
-    
     Node *head = NULL;
     Node *one = NULL;
     Node *two = NULL;

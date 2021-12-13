@@ -11,5 +11,7 @@ int main(){
     cout << a << endl;
     cout << p << endl;
     cout << *p << endl;
+    cout << &a << endl;
+    
     return 0;
 }
