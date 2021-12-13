@@ -8,7 +8,7 @@ struct Node{
 
 void printList(Node *n){ // starting from the given node
     while(n != NULL){
-        cout << n->data << " ";  // this means the inputting data
+        cout << n->data << " ";  //outputting the data
         n = n->next; // pointing to the address of the next node
     }
 }

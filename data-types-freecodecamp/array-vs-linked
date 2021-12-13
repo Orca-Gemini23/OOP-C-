@@ -1,0 +1,18 @@
+// Access the element
+In arrays the cost of accesing an element is in constant time 
+but in linked list is O(n);
+
+// Memory req:
+array is of fixed size and memory may not be available as one large block.
+in linked list there is no unused memory and there is no reserved memory 
+but we have extra memory for pointers. Also memory may be available as multiple 
+small blocks.
+
+// Cost of insertion
+array: 1. at beginning :: O(n)
+     : 2. at end :: O(1) // if array is not full 
+     :    at end :: O(n) // if array is full 
+     : 3. at i position: O(n)
+linked list: 1. O(n)
+             2. O(n)
+             3. O(n)

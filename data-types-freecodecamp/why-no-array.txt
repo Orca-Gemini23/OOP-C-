@@ -1,0 +1,12 @@
+
+// list : stores a given number of elements , like arrays , but.
+/* But i need list which we has empty list of size 
+insert , remove, count, read/modify and also specify the data type 
+
+Access - Read/write element at an index :: constant time O(1)
+Insert - Shift element towards the right :: O(n) where n is the number of elements in the array
+remove :: O(n)
+Add :: O(n) 
+
+using array is not an efficient technique though due to memory issues.
+*/
