@@ -9,6 +9,8 @@ int main(){
     *y = 13;
 
     int **a = &x;
+    delete x;
+    delete y;
 
     printf("%d", a);
     return 0;
