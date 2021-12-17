@@ -1,7 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
-
 class Node{
     public:
     int data;
@@ -28,6 +26,17 @@ void deletion(Node **head_ref, int position){
         delete temp;
         return;
     }
+    for(int i = 0; temp == NULL && i < position - 1; i++){
+        temp = temp->next; // the node to be deleted.
+    }
+    if(temp == NULL || temp->next == NULL){
+        return;
+    }
+    Node* next = temp->next->next; 
+    // stores pointer to the next of the next of the node 
+    // to be deleted. 
+    delete temp->next;
+    temp->next = next;
 }
 
 void print(Node* n){
