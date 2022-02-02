@@ -1,0 +1,25 @@
+References:
+
+in a main function we have a variable  x and some memory is allocated
+to it.
+
+int x = 10;
+int &y = x;
+// this x here is the l-value. 
+// this is a reference . it is an alias of x ;; nickname of x;
+it has the same address. 
+// references doesnt require any memory.
+
+// reference can only be used once.
+
+ both x and y are accessing the same address 
+ a change to x and change to y will change the value in it;
+
+ int a;
+ a = x; // here r-value is the right hand side value 
+ // data of x;
+ or 
+ x = 25; // here x is the left hand value 
+ // address of x;
+
+and 25 is the value in the location of both x and y;

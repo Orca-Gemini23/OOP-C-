@@ -1,0 +1,20 @@
+why pointers ?
+
+the memory is divided into 3 categories :
+1 heap 
+2. stack
+3. code section 
+
+the main funct gets into code section and it can access 
+the stack part too. 
+
+the program cant directly access the heap 
+so the program can have a pointer which is in the stack and that can
+point to the heap.
+
+file pointers  are used for the file pointers 
+network and wireless can be accessed indirectly with the help of 
+pointers. 
+
+no system programming through c# or java.
+

@@ -1,0 +1,24 @@
+void display(){
+    std::cout << "Hello world " << std::endl;
+}
+int main(){
+    void(*fp)();  // declaration of the pointer
+    fp = display; // initialization
+
+    (*fp)();
+}
+
+
+// Also we can :: 
+int main(){
+    int (*fp)(int, int);
+    fp = max;
+    (*fp)(10,5);
+    fp = min;
+    (*fp)(10, 5);
+
+
+    // This is kinda polymorphism 
+    // and also the func pointer points to different func min when
+    it is initialzed to it. 
+}

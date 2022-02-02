@@ -1,0 +1,15 @@
+Two types of variables:
+1. data variables
+2. address variables
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int x = 10;
+    int* p; // declaration
+    p = &x;// initialization of the pointer variable
+    *p // dereferencing the data
+
+    return 0;
+}

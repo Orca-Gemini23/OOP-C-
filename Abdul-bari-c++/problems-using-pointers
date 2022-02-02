@@ -1,0 +1,28 @@
+Problems:
+1. Unintialized pointers
+2. Memory leak
+3. Dangling pointers
+
+1.)) int *p;
+*p = 25;
+Here the pointer is not pointing to anything but garbage value 
+the pointer should be locating to a location.
+
+solution (1): 1. initialize it to a var
+2. p = (int*)0x5632 :: we can initialize to a address resembling 
+our program
+3. p = new int[5];
+
+2.)) When allocating memory on leak and when we dont 
+need it we should deallocate or we will run out of memory
+
+sol : Method for the deallocation
+ delete []p;
+p = NULL;
+p = 0;
+p = nullptr; 
+
+3.)) When a pointer is being accessed but the pointer
+is deallocated by either a different function 
+(the pointer was initialize but was deallocated). 
+
